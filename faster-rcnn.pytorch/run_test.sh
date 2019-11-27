@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-GPU_ID=1
+GPU_ID=0
 PHASE="val" # "test", "train"
 DATASET="gta_det"
 NET="res101"
