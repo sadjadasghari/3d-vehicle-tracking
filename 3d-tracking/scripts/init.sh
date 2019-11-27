@@ -7,7 +7,7 @@ ROOT="$( cd "$(dirname "$0")"/.. ; pwd -P )"
 cd $ROOT
 
 # Install relative modules
-pip install -r $ROOT/requirements.txt --user
+# pip install -r $ROOT/requirements.txt --user
 
 # Make data path
 mkdir -p 'data/gta5_tracking/val/image'
